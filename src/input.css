@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    font-family: 'poppins', sans-serif;
+}
+
+.swiper-pagination .swiper-pagination-bullet{
+  background-color: #197FC8;
+}
+  
+.swiper-scrollbar .swiper-scrollbar-drag{
+  @apply bg-[#8dc9e7]
+  }
+  
+.container{
+    width: 88%;
+}
+  
+.navbar-fixed{
+    @apply fixed  z-[9999] bg-slate-100 bg-opacity-90 backdrop-blur-[5px];
+}
+  
+.nav-class{
+    @apply xl:text-base mx-3 lg:mx-4 flex py-2 z-50 text-black xl:md:text-black md:text-xs xl:font-semibold relative before:absolute before:bottom-0 before:h-[3px] before:w-0 md:before:bg-[#f7c605] before:transition-all group-hover:before:w-full;
+  }
+
+.scale{
+    @apply transition-transform duration-300 hover:scale-105 hover:brightness-95;
+  }
+  
+  .overflow{
+    @apply overflow-hidden;
+  }
+  
+  .img-menu{
+    @apply h-full w-full object-cover transition-transform duration-300 hover:scale-110 ;
+  }
+  .img-gallery{
+    @apply h-full w-full object-cover transition-transform duration-300 hover:scale-110;
+  }
+
+  .overflow-menu{
+    @apply overflow-hidden rounded-sm;
+  }
+
+.garis {
+    position: relative;
+    display: inline-block;
+}
+.garis::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 4px; /* Jarak garis dari teks */
+  height: 5px; /* Ketebalan garis */
+  background-color: #f7c605; /* Warna garis mengikuti warna teks */
+  z-index: -50; /* Membuat garis berada di belakang teks */
+}
+
+.line-through-middle {
+  position: relative;
+  text-align: center;
+}
+.line-through-middle::before {
+  content: '';
+  position: absolute;
+  top : 40px;
+  left: 50%;
+  transform: translateX(-50%); /* Memindahkan kembali ke tengah */
+  /* right: 50%; */
+  bottom: 4px; /* Jarak garis dari teks */
+  width: 30%;
+  height: 5px; /* Ketebalan garis */
+  background-color: #f7c605; /* Warna garis mengikuti warna teks */
+  z-index: -50; /* Membuat garis berada di belakang teks */
+}

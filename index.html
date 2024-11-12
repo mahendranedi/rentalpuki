@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RentalPuki</title>
+    <link href="src/output.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+</head>
+<body class="overflow-x-hidden bg-white text-black">
+    
+    <!-- header start -->
+
+    <header class="absolute -top-0 w-full items-center">
+        <div class="container mx-auto w-[90%]">
+          <div class="relative mx-auto flex items-center justify-between">
+            <div class="">
+              <a href="" class="py-6 text-base font-bold md:text-xl lg:text-2xl xl:pt-36">RENTAL <span class="text-[#f7c605]">PUKI</span></a>
+            </div>
+            <div class="flex items-center">
+              <button id="hamburger" type="button" class="absolute -right-0.5 block lg:hidden">
+                <img src="img/mdi_hamburger-menu.svg" alt="" class=""/>
+              </button>
+              <nav id="nav-menu"
+                class="md:bg-transparent md:color absolute right-1 top-full hidden w-52 rounded-lg bg-primary py-4 shadow-lg lg:static lg:block md:w-full md:rounded-none md:bg-opacity-0 lg:bg-opacity-0 md:text-xs md:shadow-none xl:md:text-[16px]">
+                <ul class="block md:flex md:font-semibold">
+                  <li class="group">
+                    <a href="#home" class="nav-class">Home</a>
+                  </li>
+                  <li class="group">
+                    <a href="#koleksi" class="nav-class">Motorbike</a>
+                  </li>
+                  <li class="group">
+                    <a href="#service" class="nav-class">Service</a>
+                  </li>
+                  <li class="group">
+                    <a href="#testimony" class="nav-class">Review</a>
+                  </li>
+                  <li class="group">
+                    <a href="#booking" class="nav-class xl:mx-0 xl:ml-4">Booking</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+    </header>
+
+    <!-- header end -->
+
+    <!-- home start -->
+
+    <section id="home" class="xl:h-screen xl:scroll-mt-28">
+          <div class="container mx-auto mb-10 lg:mb-16 mt-20 md:mt-24 lg:mt-36 xl:mt-28 w-[88%]">
+            <div class="flex justify-between items-center xl:pt-10">
+              <div class="w-full self-center lg:w-1/2 lg:self-center xl:-mt-60" data-aos="fade-up" data-aos-duration="1500">
+                    <h1 class="text-2xl font-bold md:text-2xl lg:text-3xl xl:text-5xl lg:w-[400px] xl:w-[700px] xl:tracking-wider xl:leading-[70px] xl:pt-48"> Explore Bali with <span class="garis"> Puki Rental!</span> Reliable Bikes & Friendly Service!</h1>
+                    <p class="text-xs pt-2 lg:text-sm xl:text-lg xl:w-[500px]">Explore Bali’s beauty with our motorbike rentals! Enjoy the freedom to discover hidden beaches, temples, and scenic landscapes effortlessly..</p>
+                    <div class="flex pt-4 xl:mt-2">
+                        <a href="#booking" class="scale text-xs text-white font-semibold border border-[#f7c605] bg-[#f7c605] py-2 px-3 rounded-sm mr-2 sm:py-4 xl:py-3 xl:px-6 xl:text-[14px]">BOOKING</a>
+                    </div>
+              </div>
+              <div class="hidden lg:block" data-aos="fade-down" data-aos-duration="1500"> 
+                <img src="img/motor nmax old.png" alt="" class="xl:w-[550px] lg:w-[500px] xl:mt-4">
+              </div>
+            </div>
+          </div>
+      </section>
+
+    <!-- home end -->
+
+    <!-- koleksi 1 start -->
+
+    <section id="koleksii" class="mb-10 md:mb-14 xl:mb-20">
+      <div class="container mx-auto xl:mt-5 xl:pt-8">
+      <div class="mb-6 md:mb-6 lg:mb-14">
+          <h1 class="text-center text-lg font-semibold sm:text-2xl md:text-2xl lg:text-2xl xl:text-3xl 2xl:text-4xl line-through-middle xl:mb-4">
+            Most-Rented Motorbikes
+          </h1>
+          <h1 class="text-center text-xl font-bold sm:text-2xl md:text-2xl lg:text-2xl xl:text-3xl 2xl:text-4xl">
+            Discover Bali's Best Destinations on Two Wheels!
+          </h1>
+      </div>
+
+      <div class="swiper mySwipersss">
+          <div class="swiper-wrapper pb-4">
+              <div class="swiper-slide"  data-aos="flip-up" data-aos-duration="1500">
+                  <div class="mb-4 rounded-lg border-2 border-[#8dc9e7] p-3 shadow">
+                  <div class="overflow-menu">
+                  <img src="img/nmax new.svg" alt="" class="overflow xl:mx-auto"/>
+                  </div>
+                  <div class="pt-4 md:py-2">
+                      <p class="font-bold text-sm md:text-sm xl:text-lg">Nmax new</p>
+                      <h1 class="font-medium text-xs md:text-sm mt-3 mb-3 xl:text-sm">155cc </h1>
+                      <h1 class="font-medium text-xs md:text-sm mt-3 mb-3 xl:text-sm">170.000 / Day </h1>
+                      <a href="#booking" class="scale border bg-[#f7c605] border-[#f7c605] text-white text-xs font-semibold py-1.5 px-3 rounded-md xl:text-xs">See More</a>
+                  </div>
+                  </div>
+              </div>
+              <div class="swiper-slide" data-aos="flip-up" data-aos-duration="1500" data-aos-delay="300">
+                  <div class="mb-4 rounded-lg border-2 border-[#8dc9e7] py-3 px-3 shadow">
+                  <div class="overflow-menu">
+                  <img src="img/pcx new.svg" alt="" class="overflow xl:mx-auto"/>
+                  </div>
+                  <div class="pt-4 md:py-2">
+                      <p class="font-bold text-sm md:text-sm xl:text-lg xl:w-[80%]">Pcx new</p>
+                      <h1 class="font-medium text-xs md:text-sm mt-3 mb-3 xl:text-sm">160cc </h1>
+                      <h1 class="font-medium text-xs md:text-sm mt-3 mb-3 xl:text-sm">170.000 / Day </h1>
+                      <a href="#booking" class="scale border bg-[#f7c605] border-[#f7c605] text-white text-xs font-semibold py-1.5 p-3 xl:text-xs rounded-md">See More</a>
+                  </div>
+                  </div>
+              </div>
+              <div class="swiper-slide" data-aos="flip-up" data-aos-duration="1500" data-aos-delay="600">
+                  <div class="mb-4 rounded-lg border-2 border-[#8dc9e7] py-3 px-3 shadow">
+                  <div class="overflow-menu">
+                  <img src="img/adv 160.svg" alt="" class="overflow xl:mx-auto"/>
+                  </div>
+                  <div class="pt-4 md:py-2">
+                      <p class="font-bold text-sm md:text-sm xl:text-lg">Adv new</p>
+                      <h1 class="font-medium text-xs md:text-sm mt-3 mb-3 xl:text-sm">160cc </h1>
+                      <h1 class="font-medium text-xs md:text-sm mt-3 mb-3 xl:text-sm">170.000 / Day</h1>
+                      <a href="#booking" class="scale border bg-[#f7c605] border-[#f7c605] text-white text-xs font-semibold py-1.5 p-3 xl:text-xs rounded-md">See More</a>
+                  </div>
+                  </div>
+              </div>
+              <div class="swiper-slide" data-aos="flip-up" data-aos-duration="1500" data-aos-delay="600">
+                  <div class="mb-4 rounded-lg border-2 border-[#8dc9e7] py-3 px-3 shadow">
+                  <div class="overflow-menu">
+                  <img src="img/scoopy.svg" alt="" class="overflow xl:mx-auto"/>
+                  </div>
+                  <div class="pt-4 md:py-2">
+                      <p class="font-bold text-sm md:text-sm xl:text-lg">scoopy new</p>
+                      <h1 class="font-medium text-xs md:text-sm mt-3 mb-3 xl:text-sm">110cc </h1>
+                      <h1 class="font-medium text-xs md:text-sm mt-3 mb-3 xl:text-sm">150.000 / Day </h1>
+                      <a href="#booking" class="scale border bg-[#f7c605] border-[#f7c605] text-white text-xs font-semibold py-1.5 p-3 xl:text-xs rounded-md">See More</a>
+                  </div>
+                  </div>
+              </div>
+          </div>
+          <div class="swiper-scrollbar"></div>
+      </div>
+      </div>
+  </section>
+
+  <!-- koleksi end -->
+
+  <section id="koleksi" class="mb-10 md:mb-14 xl:mb-20 xl:scroll-mt-14">
+    <div class="container mx-auto xl:mt-5 xl:pt-8">
+    <div class="mb-6 md:mb-6 lg:mb-14">
+        <h1 class="text-center text-lg font-semibold sm:text-2xl md:text-2xl lg:text-2xl xl:text-3xl 2xl:text-4xl line-through-middle xl:mb-4">
+        Motorbike Rental 
+        </h1>
+    </div>
+
+    <div class="swiper mySwipersss">
+        <div class="swiper-wrapper pb-4">
+            <div class="swiper-slide"  data-aos="flip-up" data-aos-duration="1500">
+                <div class="mb-4 rounded-lg border-2 border-[#8dc9e7] p-3 shadow">
+                <div class="overflow-menu">
+                <img src="img/nmax new.svg" alt="" class="overflow xl:mx-auto"/>
+                </div>
+                <div class="pt-4 md:py-2">
+                    <p class="font-bold text-sm md:text-sm xl:text-lg">Nmax new</p>
+                    <h1 class="font-medium text-xs md:text-sm mt-3 mb-3 xl:text-sm">Diamond Beach, nestled on the exotic island of Nusa Penida in Bali, is a gem waiting to be discovered. </h1>
+                    <a href="#booking" class="scale border bg-[#f7c605] border-[#f7c605] text-white text-xs font-semibold py-1.5 px-3 rounded-md xl:text-xs">See More</a>
+                </div>
+                </div>
+            </div>
+            <div class="swiper-slide" data-aos="flip-up" data-aos-duration="1500" data-aos-delay="300">
+                <div class="mb-4 rounded-lg border-2 border-[#8dc9e7] py-3 px-3 shadow">
+                <div class="overflow-menu">
+                <img src="img/vario 160.svg" alt="" class="overflow xl:mx-auto"/>
+                </div>
+                <div class="pt-4 md:py-2">
+                    <p class="font-bold text-sm md:text-sm xl:text-lg xl:w-[80%]">Vario 160</p>
+                    <h1 class="font-medium text-xs md:text-sm mt-3 mb-3 xl:text-sm">Garuda Wisnu Kencana (GWK) is a cultural park and iconic landmark located in the southern part of Bali. </h1>
+                    <a href="#booking" class="scale border bg-[#f7c605] border-[#f7c605] text-white text-xs font-semibold py-1.5 p-3 xl:text-xs rounded-md">See More</a>
+                </div>
+                </div>
+            </div>
+            <div class="swiper-slide" data-aos="flip-up" data-aos-duration="1500" data-aos-delay="600">
+                <div class="mb-4 rounded-lg border-2 border-[#8dc9e7] py-3 px-3 shadow">
+                <div class="overflow-menu">
+                <img src="img/scoopy.svg" alt="" class="overflow xl:mx-auto"/>
+                </div>
+                <div class="pt-4 md:py-2">
+                    <p class="font-bold text-sm md:text-sm xl:text-lg">scoopy</p>
+                    <h1 class="font-medium text-xs md:text-sm mt-3 mb-3 xl:text-sm">Sekumpul Waterfall, nestled in the lush tropical rainforest of northern Bali, is a breathtaking.</h1>
+                    <a href="#booking" class="scale border bg-[#f7c605] border-[#f7c605] text-white text-xs font-semibold py-1.5 p-3 xl:text-xs rounded-md">See More</a>
+                </div>
+                </div>
+            </div>
+            <div class="swiper-slide" data-aos="flip-up" data-aos-duration="1500" data-aos-delay="600">
+                <div class="mb-4 rounded-lg border-2 border-[#8dc9e7] py-3 px-3 shadow">
+                <div class="overflow-menu">
+                <img src="img/felano.svg" alt="" class="overflow xl:mx-auto"/>
+                </div>
+                <div class="pt-4 md:py-2">
+                    <p class="font-bold text-sm md:text-sm xl:text-lg">Felano</p>
+                    <h1 class="font-medium text-xs md:text-sm mt-3 mb-3 xl:text-sm">Sekumpul Waterfall, nestled in the lush tropical rainforest of northern Bali, is a breathtaking.</h1>
+                    <a href="#booking" class="scale border bg-[#f7c605] border-[#f7c605] text-white text-xs font-semibold py-1.5 p-3 xl:text-xs rounded-md">See More</a>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-scrollbar"></div>
+    </div>
+    <div class="swiper mySwipersss mt-10 xl:mt-0">
+        <div class="swiper-wrapper pb-4">
+            <div class="swiper-slide"  data-aos="flip-up" data-aos-duration="1500">
+                <div class="mb-4 rounded-lg border-2 border-[#8dc9e7] p-3 shadow">
+                <div class="overflow-menu">
+                <img src="img/adv 160.svg" alt="" class="overflow xl:mx-auto"/>
+                </div>
+                <div class="pt-4 md:py-2">
+                    <p class="font-bold text-sm md:text-sm xl:text-lg">Adv 160</p>
+                    <h1 class="font-medium text-xs md:text-sm mt-3 mb-3 xl:text-sm">Diamond Beach, nestled on the exotic island of Nusa Penida in Bali, is a gem waiting to be discovered. </h1>
+                    <a href="#booking" class="scale border bg-[#f7c605] border-[#f7c605] text-white text-xs font-semibold py-1.5 px-3 rounded-md xl:text-xs">See More</a>
+                </div>
+                </div>
+            </div>
+            <div class="swiper-slide" data-aos="flip-up" data-aos-duration="1500" data-aos-delay="300">
+                <div class="mb-4 rounded-lg border-2 border-[#8dc9e7] py-3 px-3 shadow">
+                <div class="overflow-menu">
+                <img src="img/xmax.svg" alt="" class="overflow xl:mx-auto"/>
+                </div>
+                <div class="pt-4 md:py-2">
+                    <p class="font-bold text-sm md:text-sm xl:text-lg xl:w-[80%]">Xmax</p>
+                    <h1 class="font-medium text-xs md:text-sm mt-3 mb-3 xl:text-sm">Garuda Wisnu Kencana (GWK) is a cultural park and iconic landmark located in the southern part of Bali. </h1>
+                    <a href="#booking" class="scale border bg-[#f7c605] border-[#f7c605] text-white text-xs font-semibold py-1.5 p-3 xl:text-xs rounded-md">See More</a>
+                </div>
+                </div>
+            </div>
+            <div class="swiper-slide" data-aos="flip-up" data-aos-duration="1500" data-aos-delay="600">
+                <div class="mb-4 rounded-lg border-2 border-[#8dc9e7] py-3 px-3 shadow">
+                <div class="overflow-menu">
+                <img src="img/fazio.svg" alt="" class="overflow xl:mx-auto"/>
+                </div>
+                <div class="pt-4 md:py-2">
+                    <p class="font-bold text-sm md:text-sm xl:text-lg">Fazzio</p>
+                    <h1 class="font-medium text-xs md:text-sm mt-3 mb-3 xl:text-sm">Sekumpul Waterfall, nestled in the lush tropical rainforest of northern Bali, is a breathtaking.</h1>
+                    <a href="#booking" class="scale border bg-[#f7c605] border-[#f7c605] text-white text-xs font-semibold py-1.5 p-3 xl:text-xs rounded-md">See More</a>
+                </div>
+                </div>
+            </div>
+            <div class="swiper-slide" data-aos="flip-up" data-aos-duration="1500" data-aos-delay="600">
+                <div class="mb-4 rounded-lg border-2 border-[#8dc9e7] py-3 px-3 shadow">
+                <div class="overflow-menu">
+                <img src="img/pcx new.svg" alt="" class="overflow xl:mx-auto"/>
+                </div>
+                <div class="pt-4 md:py-2">
+                    <p class="font-bold text-sm md:text-sm xl:text-lg">Pcx 160</p>
+                    <h1 class="font-medium text-xs md:text-sm mt-3 mb-3 xl:text-sm">Sekumpul Waterfall, nestled in the lush tropical rainforest of northern Bali, is a breathtaking.</h1>
+                    <a href="#booking" class="scale border bg-[#f7c605] border-[#f7c605] text-white text-xs font-semibold py-1.5 p-3 xl:text-xs rounded-md">See More</a>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-scrollbar"></div>
+    </div>
+    </div>
+</section>
+
+    <!-- layanan start -->
+
+    <section id="service" class="md:mb-16 mb-10 xl:mb-20 xl:scroll-mt-16">
+      <div class="container mx-auto flex items-center justify-center md:mt-8 xl:mt-14 lg:pt-8"  data-aos="fade-up" data-aos-duration="1500">
+        <div class="">
+          <div class="text-center sm:mb-2 xl:mb-14">
+              <h1 class="text-center text-[#000] text-lg font-bold sm:text-2xl md:text-2xl lg:text-2xl xl:text-3xl 2xl:text-4xl">
+               Why Rent A Motorbike At Puki Rental
+              </h1>
+          </div>
+          <div class="mt-8 flex justify-between xl:justify-normal gap-y-4 sm:mt-2 sm:gap-2 md:mt-8 sm:gap-y-6 md:mx-auto md:gap-y-8 lg:mt-4 lg:gap-y-4 xl:mt-6 xl:gap-y-8 xl:gap-8 text-[#f7c605]">
+            <div class="group w-[47%] xl:w-[35%] rounded-md xl:p-6 sm:p-4 p-2 text-center">
+              <div class="flex flex-col gap-3 py-3.5 sm:gap-2 xl:gap-4">
+                <div class="text-center mx-auto">
+                  <img src="img/layanan 1.svg" alt="" class="w-[50px] xl:w-[150px]">
+                </div>
+                <div class="text-center">
+                  <h1 class="text-xs font-bold sm:text-sm md:text-sm lg:text-xs xl:text-[16px]">
+                      Original User Rating
+                  </h1>
+                </div>
+                <h1 class="text-xs sm:text-sm md:text-sm lg:text-xs xl:text-[10px]">
+                  Say goodbye to uncertainty! Now you can easily find the best car rental options. Get trusted
+                   recommendations from other users’ ratings and discover the perfect rental car for your needs!
+              </h1>              
+              </div>
+            </div>
+            <div class="group w-[47%] xl:w-[35%] rounded-md xl:p-6 sm:p-4 p-2 text-center">
+              <div class="flex flex-col gap-3 py-3.5 sm:gap-2 xl:gap-4">
+                <div class="text-center mx-auto">
+                  <img src="img/layanan 2.svg" alt="" class="w-[50px] xl:w-[160px]">
+                </div>
+                <div class="text-center">
+                  <h1 class="text-xs font-bold xl:mt-1 sm:text-sm md:text-sm lg:text-xs xl:text-[16px]">
+                      Qualitiy Service From Trusted Partners
+                  </h1>
+                </div>
+                <h1 class="text-xs sm:text-sm md:text-sm lg:text-xs xl:text-[10px]">
+                  Traveloka's car rental partners deliver top-quality service to ensure your journey is as comfortable as it is memorable. 
+                  Enjoy a seamless travel experience with trusted providers dedicated to your satisfaction!
+              </h1>    
+              </div>
+            </div>
+            <div class="group w-[47%] xl:w-[35%] rounded-md xl:p-6 sm:p-4 p-2 text-center">
+              <div class="flex flex-col gap-3 py-3.5 sm:gap-2 xl:gap-4">
+                <div class="text-center mx-auto">
+                  <img src="img/layanan 3.svg" alt="" class="w-[50px] xl:w-[150px]">
+                </div>
+                <div class="text-center">
+                  <h1 class="text-xs font-bold sm:text-sm md:text-sm lg:text-xs xl:text-[16px]">
+                    Save Time
+                  </h1>
+                </div>
+                <h1 class="text-xs sm:text-sm md:text-sm lg:text-xs xl:text-[10px]">
+                  Car rentals are right at your fingertips, anytime and anywhere. Easily compare options from our trusted partners and 
+                  find the perfect vehicle that fits your needs. Your ideal ride is just a few taps away!
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- layanan end -->
+
+  <!-- testimony start -->
+
+  <section id="testimony" class="md:mb-10 mb-10 xl:pb-0 xl:mb-20 xl:scroll-mt-24">
+    <div class="container mx-auto md:mt-5 xl:pt-0 xl:mt-14" data-aos="fade-up" data-aos-duration="1500">
+      <div class="text-center mb-4 xl:mb-0">
+        <div class="mb-6 md:mb-6 lg:mb-14">
+          <h1 class="text-center text-[#000] text-lg font-bold sm:text-2xl md:text-2xl lg:text-2xl xl:text-3xl 2xl:text-4xl">
+            Authentic Reviews from Our Valued Clients
+          </h1>
+        </div>
+      </div>
+
+      <div class="swiper mySwipersssss" data-aos="fade-up">
+        <div class="swiper-wrapper pb-8 sm:mb-2 md:mb-4 py-2 md:mt-4 lg:mt-2 xl:mt-6 xl:pb-10 text-primary">
+          <div class="swiper-slide">
+            <div class="flex flex-col bg-[#f7c605] text-white shadow-md rounded-md 2xl:pb-12 gap-4 p-6 sm:p-6 transition-all duration-300">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                  <img src="img/Ellipse 5.svg" alt="" class="w-10 sm:w-1/4 xl:w-12">
+                  <div class="flex flex-col">
+                    <h1 class= "font-semibold text-xs sm:text-sm lg:text-lg">Maya</h1>
+                    <p class="text-[10px] xl:text-xs">The traveler</p>
+                  </div>
+                </div>
+                <img src="img/d376ac534279483b67406042df279cf8-removebg-preview 1.svg" alt="" class="w-10">
+              </div>
+              <div class="">
+                <p class="font-normal text-xs lg:text-base">"This lightweight motorbike makes my daily commute a breeze! It's agile, easy to handle, 
+                  and fuel-efficient—perfect for busy city streets. Ideal for anyone seeking quick, hassle-free mobility!"</p>
+              </div>
+              <img src="img/Cuplikan layar 2024-11-05 082918.svg" alt="" class="w-2/4">
+            </div>
+          </div>          
+          <div class="swiper-slide">
+            <div class="flex flex-col bg-[#f7c605] text-white shadow-md rounded-md 2xl:pb-12 gap-4 p-6 sm:p-6 transition-all duration-300">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                  <img src="img/Ellipse 5 (1).svg" alt="" class="w-10 sm:w-1/4 xl:w-12">
+                  <div class="flex flex-col">
+                    <h1 class= "font-semibold text-xs sm:text-sm lg:text-lg">Riana</h1>
+                    <p class="text-[10px] xl:text-xs">The Musician</p>
+                  </div>
+                </div>
+                <img src="img/d376ac534279483b67406042df279cf8-removebg-preview 1.svg" alt="" class="w-10">
+              </div>
+              <p class="font-normal text-xs lg:text-base">"This motorbike is truly multifunctional and incredibly helpful! It’s 
+                comfortable to ride and can carry plenty of items without feeling heavy. Perfect for anyone needing a practical, versatile vehicle!"</p>
+              <img src="img/Cuplikan layar 2024-11-05 083958.svg" alt=""  class="w-2/4">
+            </div>
+          </div>          
+          <div class="swiper-slide">
+            <div class="flex flex-col bg-[#f7c605] text-white shadow-md rounded-md 2xl:pb-12 gap-4 p-6 sm:p-6 transition-all duration-300">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                  <img src="img/Ellipse 5 (2).svg" alt="" class="w-10 sm:w-1/4 xl:w-12">
+                  <div class="flex flex-col">
+                    <h1 class= "font-semibold text-xs sm:text-sm lg:text-lg">Jack</h1>
+                    <p class="text-[10px] xl:text-xs">The traveler</p>
+                  </div>
+                </div>
+                <img src="img/d376ac534279483b67406042df279cf8-removebg-preview 1.svg" alt="" class="w-10">
+              </div>
+              <p class="font-normal text-xs lg:text-base">"This motorbike truly offers a sense of safety while riding! The design is built with excellent safety 
+                features, making it suitable for all ages. Every ride feels secure and gives me confidence on the road—highly recommended!" </p>
+              <img src="img/download (3).svg" alt=""  class="w-2/4">
+            </div>
+          </div>          
+          <div class="swiper-slide">
+            <div class="flex flex-col bg-[#f7c605] text-white shadow-md rounded-md 2xl:pb-12 gap-4 p-6 sm:p-6 transition-all duration-300">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                  <img src="img/Ellipse 5 (1).svg" alt="" class="w-10 sm:w-1/4 xl:w-12">
+                  <div class="flex flex-col">
+                    <h1 class= "font-semibold text-xs sm:text-sm lg:text-lg">Riana</h1>
+                    <p class="text-[10px] xl:text-xs">The Musician</p>
+                  </div>
+                </div>
+                <img src="img/d376ac534279483b67406042df279cf8-removebg-preview 1.svg" alt="" class="w-10">
+              </div>
+              <p class="font-normal text-xs lg:text-base">"The selection of motorbikes is truly diverse and top-quality! Each model offers unique
+                 features with stylish designs and reliable performance. I'm very impressed with the available options—there's something for every need!"</p>
+            </div>
+          </div>          
+          <div class="swiper-slide">
+            <div class="flex flex-col bg-[#f7c605] text-white shadow-md rounded-md 2xl:pb-12 gap-4 p-6 sm:p-6 transition-all duration-300">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                  <img src="img/Ellipse 5 (2).svg" alt="" class="w-10 sm:w-1/4 xl:w-12">
+                  <div class="flex flex-col">
+                    <h1 class= "font-semibold text-xs sm:text-sm lg:text-lg">Jack</h1>
+                    <p class="text-[10px] xl:text-xs">The traveler</p>
+                  </div>
+                </div>
+                <img src="img/d376ac534279483b67406042df279cf8-removebg-preview 1.svg" alt="" class="w-10">
+              </div>
+              <p class="font-normal text-xs lg:text-base">"This is my second time renting here, and I'm impressed! The service is outstanding,
+                 with friendly staff. A reliable, convenient, and pleasant rental experience—highly recommend for anyone looking for quality!" </p>
+            </div>
+          </div>          
+        </div>
+        <div class="swiper-scrollbar"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- testimony end -->
+
+  <!-- booking start -->
+  <section id="booking" class="bg-secondary mb-10 xl:mt-14 md:mt-10 xl:pt-16 md:mb-12 xl:mb-20 text-white">
+    <div class="container mx-auto">
+      <div class="justify-center xl:mx-auto items-center md:flex md:items-center">
+        <div class="hidden w-[45%] md:block" data-aos="zoom-in" data-aos-duration="1500">
+          <img src="img/Rectangle 23.svg" alt="" class="w-full rounded" />
+        </div>
+        <div class="bg-[#f7c605] p-4 xl:p-12 rounded-lg mx-auto flex flex-col md:mt-0 justify-between text-center md:mx-0 md:w-[50%] xl:w-[40%] md:text-left xl:mt-0 xl:-ml-20" data-aos="zoom-out" data-aos-duration="1500">
+          <div class="mb-2 xl:mb-5 xl:text-left">
+            <h1 class="text-xl font-bold md:text-xl lg:text-2xl xl:text-3xl xl:text-left 2xl:w-[70%]">
+                Booking
+            </h1>
+          </div>
+          <div class="text-p mb-3 text-[16px] md:text-xs lg:text-sm xl:text-xl xl:mb-6">
+            <p class="">
+              Contact with us to book your trip
+            </p>
+          </div>
+          <div class="">
+            <form action="/submit_booking" method="post" class="mb-6">
+              <input type="text" name="name" placeholder="Your name" class="w-full px-4 py-1 border border-gray-300 rounded-md mb-2 placeholder:text-xs">
+              <input type="email" name="email" placeholder="Your Email" class="w-full px-4 py-2 border border-gray-300 rounded-md mb-2 placeholder:text-xs">
+              <input type="text" name="Date" placeholder="Date Experience" class="w-full px-4 py-2 border border-gray-300 rounded-md mb-4 xl:mb-7 placeholder:text-xs">
+              <button type="submit" class="scale w-full text-sm bg-orange-500 text-white py-2 rounded-md transition duration-300">SEND</button>
+            </form>
+          </div>
+          <div class="flex items-center mb-6">
+            <hr class="flex-1 mr-4 border-t border-gray-300">
+            <span class="text-sm xl:text-lg font-semibold text-white">Or</span>
+            <hr class="flex-1 ml-4 border-t border-gray-300">
+          </div>
+          <div class="tombol-booking">
+            <button onclick="bukaWhatsApp()" class="scale flex items-center justify-center w-full py-2 bg-[#40CD80] text-white rounded-md transition duration-300 text-sm">
+                <img src="img/Vector.svg" alt="" class="w-6 mr-2">
+                Chat via WhatsApp
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- booking end -->
+
+  <footer class="bg-[#f7c605]">
+    <div class="container mx-auto">
+      <div
+        class="flex flex-wrap justify-around gap-6 gap-y-12 py-6 text-[6px] md:justify-between md:gap-0 md:py-12 md:text-[10px] md:font-light lg:text-xs">
+        <div class="flex w-[40%] flex-col text-white font-medium sm:w-[20%] md:font-semibold">
+          <div class="">
+            <h1 class="mb-2 text-xs font-semibold md:text-base lg:text-xl lg:mb-3 lg:font-bold">
+              Bola<span class="">Warriors.</span>
+            </h1>
+          </div>
+          <img src="img/sosialmedia.svg" alt="" class="w-16 xl:w-32 cursor-pointer">
+        </div>
+  
+        <div
+          class="flex w-[30%] flex-col gap-1 text-white text-[9px] font-medium sm:w-[20%] md:gap-2 md:text-xs md:font-semibold xl:gap-4">
+          <h1 class="mb-2 text-xs font-semibo md:text-base lg:text-xl lg:font-bold">
+            Tour
+          </h1>
+          <p class="">About Us</p>
+          <p class="">Map Of Tour</p>
+          <p class="">Map Places</p>
+        </div>
+  
+        <div
+          class="hidden lg:flex w-[30%] flex-col text-white gap-1 text-[9px] font-medium sm:w-[15%] md:gap-2 md:text-xs md:font-semibold xl:gap-4">
+          <h1 class="mb-2 text-xs font-semibold md:text-base lg:text-xl lg:font-bold">
+            Link
+          </h1>
+          <p class="">Support</p>
+          <p class="">Booking</p>
+          <p class="">Services</p>
+        </div>
+  
+        <div
+          class="flex w-[40%] flex-col gap-1 text-[9px] text-white font-medium sm:w-[20%] md:gap-2 md:text-xs md:font-semibold xl:gap-4">
+          <h1 class="mb-2 text-xs font-semibold md:text-base lg:text-xl lg:font-bold">
+            Kontak
+          </h1>
+          <p class="">RentalPuki@gmail.com</p>
+          <p class="">+62-123-456</p>
+        </div>
+  
+        <div class="mb-8 h-[15vh] w-[40%] font-medium md:h-[13vh] md:w-[20%] lg:h-[25vh]">
+          <h1 class="mb-2 text-white text-xs font-semibold md:mb-4 md:w-[15%] md:text-base lg:text-xl lg:font-bold">
+            Map
+          </h1>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.569034968726!2d115.20953507359629!3d-8.637304687818217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd23f427c827f27%3A0x232bc099d3a1d1b4!2sDharma%20Alaya%20Lumintang!5e0!3m2!1sid!2sid!4v1703779090661!5m2!1sid!2sid"
+            class="h-full w-full rounded-md shadow-md"></iframe>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function bukaWhatsApp() {
+        var nomor = "6281916052809"; // Ganti dengan nomor tujuan
+        var pesan = "Halo, saya ingin bertanya tentang produk Anda"; // Ganti dengan pesan Anda
+        var url = "https://wa.me/" + nomor + "?text=" + encodeURIComponent(pesan);
+        window.open(url, "_blank"); // Membuka tautan di tab baru
+    }
+  </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="Js/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
